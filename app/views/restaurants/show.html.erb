@@ -1,0 +1,8 @@
+<h1><%= @restaurant.name %></h1>
+
+<div class="list-group">
+  <li class="list-group-item">Adress: <%= @restaurant.address %></li>
+  <li class="list-group-item">Telephone No: <%= @restaurant.phone_number %></li>
+</div>
+
+<%= link_to "Back", restaurants_path, class: "btn btn-secondary" %>
